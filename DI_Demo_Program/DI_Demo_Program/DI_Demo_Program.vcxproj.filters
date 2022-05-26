@@ -1,0 +1,435 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Sensor">
+      <UniqueIdentifier>{ad1e4fb9-c375-45e1-81db-07415a7d60d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Die">
+      <UniqueIdentifier>{f4965727-b630-42a8-9e97-ab4f573ab05d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Snippets">
+      <UniqueIdentifier>{e9219486-4d08-47ac-bd1d-3d53cee5726f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Snippets\Control">
+      <UniqueIdentifier>{40bad25f-96b1-4dc0-8e6a-aa53d4600284}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Snippets\CtrlFunc">
+      <UniqueIdentifier>{1cfbc077-9a78-4fa5-b1cc-efca0b55b433}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Snippets\CtrlVariable">
+      <UniqueIdentifier>{4ea3d06b-c8fd-46b7-bd26-898e9c7b9641}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HID">
+      <UniqueIdentifier>{22973f4d-d02a-4da4-8070-6cfe97b38234}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DIDemoProgramDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PageST1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProgressBar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Modelless1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonLed.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sensor\AP306E.h">
+      <Filter>Sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="DI_Sensor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EditGroup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SliderGroup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProgressGroup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ComboGroup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckGroup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonGroup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TextGroup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SelSensor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RadioGroup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Modelless_List.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyControlGroup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sensor\AP3172.h">
+      <Filter>Sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="Die\DA3107.h">
+      <Filter>Die</Filter>
+    </ClInclude>
+    <ClInclude Include="Die\DA3221.h">
+      <Filter>Die</Filter>
+    </ClInclude>
+    <ClInclude Include="sensor\CS5072.h">
+      <Filter>Sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="I2CDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sensor\CP507C.h">
+      <Filter>Sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="Die\DA3108.h">
+      <Filter>Die</Filter>
+    </ClInclude>
+    <ClInclude Include="sensor\AL306L.h">
+      <Filter>Sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="sensor\CP5076.h">
+      <Filter>Sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="About.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sensor\AL3070.h">
+      <Filter>Sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="sensor\AP3276.h">
+      <Filter>Sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="sensor\AP3272.h">
+      <Filter>Sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="sensor\AP3076.h">
+      <Filter>Sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="sensor\AP317E.h">
+      <Filter>Sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="sensor\AP337E.h">
+      <Filter>Sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="sensor\AP307E.h">
+      <Filter>Sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="sensor\AP3176.h">
+      <Filter>Sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="sensor\AP3426.h">
+      <Filter>Sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="sensor\AP314AQ.h">
+      <Filter>Sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="Die\DA3121.h">
+      <Filter>Die</Filter>
+    </ClInclude>
+    <ClInclude Include="sensor\AL3320.h">
+      <Filter>Sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="Die\DA5330.h">
+      <Filter>Die</Filter>
+    </ClInclude>
+    <ClInclude Include="Die\DA3211.h">
+      <Filter>Die</Filter>
+    </ClInclude>
+    <ClInclude Include="sensor\AL3010.h">
+      <Filter>Sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="sensor\CS5032.h">
+      <Filter>Sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="Die\DA3212.h">
+      <Filter>Die</Filter>
+    </ClInclude>
+    <ClInclude Include="sensor\AL3472.h">
+      <Filter>Sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="Die\DA3101.h">
+      <Filter>Die</Filter>
+    </ClInclude>
+    <ClInclude Include="sensor\AL3042.h">
+      <Filter>Sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="Die\DA3110T.h">
+      <Filter>Die</Filter>
+    </ClInclude>
+    <ClInclude Include="sensor\AP3220.h">
+      <Filter>Sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="sensor\DA3111.h">
+      <Filter>Sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="Die\DA3111T.h">
+      <Filter>Die</Filter>
+    </ClInclude>
+    <ClInclude Include="sensor\MN26005U.h">
+      <Filter>Sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="Die\MN26005U_D.h">
+      <Filter>Die</Filter>
+    </ClInclude>
+    <ClInclude Include="Die\MN58406D_D.h">
+      <Filter>Die</Filter>
+    </ClInclude>
+    <ClInclude Include="sensor\MN58406D.h">
+      <Filter>Sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="Die\DA3380.h">
+      <Filter>Die</Filter>
+    </ClInclude>
+    <ClInclude Include="sensor\DA3110.h">
+      <Filter>Sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="sensor\PX318J.h">
+      <Filter>Sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="Die\DI3135_D.h">
+      <Filter>Die</Filter>
+    </ClInclude>
+    <ClInclude Include="sensor\DI3135.h">
+      <Filter>Sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="sensor\PX338N.h">
+      <Filter>Sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="HID\AtmelHIDLIB.h">
+      <Filter>HID</Filter>
+    </ClInclude>
+    <ClInclude Include="HID\HID_Struct.h">
+      <Filter>HID</Filter>
+    </ClInclude>
+    <ClInclude Include="HID\USBHID.h">
+      <Filter>HID</Filter>
+    </ClInclude>
+    <ClInclude Include="Version1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sensor\PX328J.h">
+      <Filter>Sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="sensor\PX688R.h">
+      <Filter>Sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="sensor\NPX_Demo.h">
+      <Filter>Sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="Die\DA3290.h">
+      <Filter>Die</Filter>
+    </ClInclude>
+    <ClInclude Include="Die\DA1990C.h">
+      <Filter>Die</Filter>
+    </ClInclude>
+    <ClInclude Include="Die\DA1990AP.h">
+      <Filter>Die</Filter>
+    </ClInclude>
+    <ClInclude Include="sensor\AL3092.h">
+      <Filter>Sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="sensor\PX3028.h">
+      <Filter>Sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="sensor\AP309M.h">
+      <Filter>Sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="sensor\CS5092.h">
+      <Filter>Sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="Die\DA3291.h">
+      <Filter>Die</Filter>
+    </ClInclude>
+    <ClInclude Include="sensor\AP35AM.h">
+      <Filter>Sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="sensor\VCNL_Demo.h">
+      <Filter>Sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="Die\VCNL36821S.h">
+      <Filter>Die</Filter>
+    </ClInclude>
+    <ClInclude Include="sensor\PXANALOG.h">
+      <Filter>Sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="sensor\PX31BF.h">
+      <Filter>Sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="sensor\AL3001.h">
+      <Filter>Sensor</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DI_Demo_Program.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DIDemoProgramDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PageST1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProgressBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Modelless1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonLed.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DI_Sensor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EditGroup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SliderGroup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProgressGroup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ComboGroup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckGroup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonGroup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextGroup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SelSensor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RadioGroup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Modelless_List.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyControlGroup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="I2CDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="About.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HID\AtmelHIDLIB.cpp">
+      <Filter>HID</Filter>
+    </ClCompile>
+    <ClCompile Include="HID\USBHID.cpp">
+      <Filter>HID</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DI_Demo_Program.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Active.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\InActive.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\NoTrigger.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\OpenSensor.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Run.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Save.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Stop.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Logo.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\DI_Logo_l.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Reload.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Custom_icon1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Snippets\CtrlFunc\FuncChangeRange.snippet">
+      <Filter>Snippets\CtrlFunc</Filter>
+    </None>
+    <None Include="Snippets\Control\CtrlButton.snippet">
+      <Filter>Snippets\Control</Filter>
+    </None>
+    <None Include="Snippets\Control\CtrlRadio.snippet">
+      <Filter>Snippets\Control</Filter>
+    </None>
+    <None Include="Snippets\Control\CtrlProgressBar.snippet">
+      <Filter>Snippets\Control</Filter>
+    </None>
+    <None Include="Snippets\Control\CtrlLed.snippet">
+      <Filter>Snippets\Control</Filter>
+    </None>
+    <None Include="Snippets\Control\CtrlCheck.snippet">
+      <Filter>Snippets\Control</Filter>
+    </None>
+    <None Include="Snippets\CtrlFunc\VarWaiteDelayMs.snippet">
+      <Filter>Snippets\CtrlVariable</Filter>
+    </None>
+    <None Include="Snippets\Control\CtrlText.snippet">
+      <Filter>Snippets\Control</Filter>
+    </None>
+  </ItemGroup>
+</Project>
